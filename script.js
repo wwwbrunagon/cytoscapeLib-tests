@@ -1,7 +1,7 @@
 let cy = cytoscape({
     container: document.getElementById('cy'),
     elements: [
-      //nodes
+      //node TEATRO
       { data: { id: 'TEATRO'} },
       { data: { id: 'ridicularia'} },
       { data: { id: 'ridículo'} },
@@ -24,9 +24,6 @@ let cy = cytoscape({
       { data: { id: 'templo'} },
       { data: { id: 'espaço'} },
       { data: { id: 'trabalho'} },
-
-        //sinonimos
-      { data: { id: 'Sinonimos'} },
       { data: { id: 'anfiteatro'} },
       { data: { id: 'palco'} },
       { data: { id: 'drama'} },
@@ -36,227 +33,302 @@ let cy = cytoscape({
       { data: { id: 'aparência'} },
       { data: { id: 'disfarce'} },
       { data: { id: 'ilusão'} },
+
+      //node DRAMA
+      { data: { id: 'calamidade'} },
+      { data: { id: 'catastrofe'} },
+      { data: { id: 'tragédia'} },
+
+      //node ILUSÃO
+      { data: { id: 'quimera'} },
+      { data: { id: 'sonho'} },  
+      { data: { id: 'aparência'} },
+      { data: { id: 'mistificação'} },
+      { data: { id: 'engano'} },
+      { data: { id: 'falseamento'} },
+      
  
 
       //edges
       {
         data: {
-          id: 'relacionadas_1',
+          id: 'data_teatro_1',
           source: 'TEATRO',
           target: 'ridicularia'
         }
       },
       {
         data: {
-          id: 'relacionadas_2',
+          id: 'data_teatro_2',
           source: 'TEATRO',
           target: 'ridículo'
         }
       },
       {
         data: {
-          id: 'relacionadas_3',
+          id: 'data_teatro_3',
           source: 'TEATRO',
           target: 'artes'
         }
       },
       {
         data: {
-          id: 'relacionadas_4',
+          id: 'data_teatro_4',
           source: 'TEATRO',
           target: 'arena'
         }
       },
       {
         data: {
-          id: 'relacionadas_5',
+          id: 'data_teatro_5',
           source: 'TEATRO',
           target: 'visão'
         }
       },
       {
         data: {
-          id: 'relacionadas_6',
+          id: 'data_teatro_6',
           source: 'TEATRO',
           target: 'falsidade'
         }
       },
       {
         data: {
-          id: 'relacionadas_7',
+          id: 'data_teatro_7',
           source: 'TEATRO',
           target: 'dilatação'
         }
       },
       {
         data: {
-          id: 'relacionadas_8',
+          id: 'data_teatro_8',
           source: 'TEATRO',
           target: 'prolixidade'
         }
       },
       {
         data: {
-          id: 'relacionadas_9',
+          id: 'data_teatro_9',
           source: 'TEATRO',
           target: 'circunjacência'
         }
       },
       {
         data: {
-          id: 'relacionadas_10',
+          id: 'data_teatro_10',
           source: 'TEATRO',
           target: 'foco'
         }
       },
       {
         data: {
-          id: 'relacionadas_11',
+          id: 'data_teatro_11',
           source: 'TEATRO',
           target: 'largura'
         }
       },
       {
         data: {
-          id: 'relacionadas_12',
+          id: 'data_teatro_12',
           source: 'TEATRO',
           target: 'quantidade'
         }
       },
       {
         data: {
-          id: 'relacionadas_13',
+          id: 'data_teatro_13',
           source: 'TEATRO',
           target: 'alegação'
         }
       },
       {
         data: {
-          id: 'relacionadas_14',
+          id: 'data_teatro_14',
           source: 'TEATRO',
           target: 'arremedo'
         }
       },
       {
         data: {
-          id: 'relacionadas_15',
+          id: 'data_teatro_15',
           source: 'TEATRO',
           target: 'tamanho'
         }
       },
       {
         data: {
-          id: 'relacionadas_16',
+          id: 'data_teatro_16',
           source: 'TEATRO',
           target: 'situação'
         }
       },
       {
         data: {
-          id: 'relacionadas_17',
+          id: 'data_teatro_17',
           source: 'TEATRO',
           target: 'grau'
         }
       },
       {
         data: {
-          id: 'relacionadas_18',
+          id: 'data_teatro_18',
           source: 'TEATRO',
           target: 'região'
         }
       },      
       {
         data: {
-          id: 'relacionadas_19',
+          id: 'data_teatro_19',
           source: 'TEATRO',
           target: 'templo'
         }
       },
       {
         data: {
-          id: 'relacionadas_20',
+          id: 'data_teatro_20',
           source: 'TEATRO',
           target: 'espaço'
         }
       },
       {
         data: {
-          id: 'relacionadas_21',
+          id: 'data_teatro_21',
           source: 'TEATRO',
           target: 'trabalho'
         }
       },
-
       {
         data: {
-          id: 'sinonimo_1',
+          id: 'data_teatro_23',
           source: 'TEATRO',
-          target: 'Sinonimos'
-        }
-      },
-      {
-        data: {
-          id: 'sinonimo_2',
-          source: 'Sinonimos',
           target: 'anfiteatro'
         }
       },
       {
         data: {
-          id: 'sinonimo_3',
-          source: 'Sinonimos',
+          id: 'data_teatro_24',
+          source: 'TEATRO',
           target: 'palco'
         }
       },
       {
         data: {
-          id: 'sinonimo_4',
-          source: 'Sinonimos',
+          id: 'data_teatro_25',
+          source: 'TEATRO',
           target: 'drama'
         }
       },
       {
         data: {
-          id: 'sinonimo_5',
-          source: 'Sinonimos',
+          id: 'data_teatro_26',
+          source: 'TEATRO',
           target: 'fantochada'
         }
       },
       {
         data: {
-          id: 'sinonimo_6',
-          source: 'Sinonimos',
+          id: 'data_teatro_27',
+          source: 'TEATRO',
           target: 'farsa'
         }
       },
       {
         data: {
-          id: 'sinonimo_7',
-          source: 'Sinonimos',
+          id: 'data_teatro_28',
+          source: 'TEATRO',
           target: 'fingimento'
         }
       },
       {
         data: {
-          id: 'sinonimo_8',
-          source: 'Sinonimos',
+          id: 'data_teatro_29',
+          source: 'TEATRO',
           target: 'aparência'
         }
       },
       {
         data: {
-          id: 'sinonimo_9',
-          source: 'Sinonimos',
+          id: 'data_teatro_30',
+          source: 'TEATRO',
           target: 'disfarce'
         }
       },
       {
         data: {
-          id: 'sinonimo_10',
-          source: 'Sinonimos',
+          id: 'data_teatro_31',
+          source: 'TEATRO',
           target: 'ilusão'
         }
-      }
+      },      
+      {
+        data: {
+          id: 'data_drama_2',
+          source: 'drama',
+          target: 'tragédia'
+        }
+      },
+      {
+        data: {
+          id: 'data_drama_3',
+          source: 'drama',
+          target: 'calamidade'
+        }
+      },
+      {
+        data: {
+          id: 'data_drama_4',
+          source: 'drama',
+          target: 'catastrofe'
+        }
+      },
+      {
+        data: {
+          id: 'data_ilusão_1',
+          source: 'ilusão',
+          target: 'quimera'
+        }
+      },
+      {
+        data: {
+          id: 'data_ilusão_2',
+          source: 'ilusão',
+          target: 'sonho'
+        }
+      },
+      {
+        data: {
+          id: 'data_ilusão_3',
+          source: 'ilusão',
+          target: 'disfarce'
+        }
+      },
+      {
+        data: {
+          id: 'data_ilusão_4',
+          source: 'ilusão',
+          target: 'aparência'
+        }
+      },      
+      {
+        data: {
+          id: 'data_ilusão_5',
+          source: 'ilusão',
+          target: 'mistificação'
+        }
+      },
+      {
+        data: {
+          id: 'data_ilusão_6',
+          source: 'ilusão',
+          target: 'engano'
+        }
+      },      {
+        data: {
+          id: 'data_ilusão_7',
+          source: 'ilusão',
+          target: 'falseamento'
+        }
+      }      
     ],
     style: [
       {
@@ -271,5 +343,5 @@ let cy = cytoscape({
       }]
   });
   cy.layout({
-      name: 'cose'
+      name: 'random'
   });
